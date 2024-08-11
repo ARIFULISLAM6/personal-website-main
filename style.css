@@ -27,6 +27,7 @@ p {
 }
 
 .link-button {
+    align-items: center;
     text-decoration: none;
     background: linear-gradient(to left, #db8009, #3ea010);
     color: blue;
@@ -36,6 +37,27 @@ p {
     font-size: 30px;
 }
 
+.taka {
+    margin: 30px;
+    background-color: antiquewhite;
+    padding: 2%;
+
+}
+
+#takaa {
+    border-color: brown;
+    border: 5px solid red;
+}
+
+.taka-space {
+    display: flex;
+    align-items: center;
+    bo
+}
+
+
+
+
 .top-background {
     background-image: url(top-background\ 2.jpeg);
     background-repeat: no-repeat;
@@ -43,5 +65,33 @@ p {
     height: 45vw;
     background-position: top;
     background-size: cover;
+
+}
+
+.link-button-2 {
+    align-items: center;
+    text-decoration: none;
+    background: linear-gradient(to left, #db8009, #3ea010);
+    color: blue;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.second-full-box {}
+
+.second-box {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: ;
 
 }
