@@ -2,10 +2,17 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin: 0%;
 }
 
-body {
-    margin: 0%;
+.top-background {
+    background-image: url(top-background\ 2.jpeg);
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    width: 100%;
+    height: 45vw;
+    background-position: top;
+    background-size: cover;
 }
 
 .top-box {
@@ -14,8 +21,6 @@ body {
     padding-top: 10%;
     padding-left: 20%;
     padding-right: 20%;
-
-
 }
 
 h1 {
@@ -37,35 +42,54 @@ p {
     font-size: 30px;
 }
 
-.taka {
+.second-box {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 10%;
+}
+
+.input-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.taka-sambol {
     margin: 30px;
     background-color: antiquewhite;
     padding: 2%;
 
 }
 
-#takaa {
-    border-color: brown;
-    border: 5px solid red;
+.taka-sambol:hover {
+    background-color: rgb(red, green, blue);
+    color: brown;
+    border: 2px solid red;
 }
 
-.taka-space {
+.input-amount {
+    width: 45%px;
+    padding: 15px 15px 15px 50px;
+    font-size: 25px;
+    border: none;
+    border-bottom: grey;
+    outline: none;
     display: flex;
     align-items: center;
-    bo
+    text-align: center;
+    margin-left: 41%;
+    background-color: rgb(80, 78, 76);
 }
 
-
-
-
-.top-background {
-    background-image: url(top-background\ 2.jpeg);
-    background-repeat: no-repeat;
+.input-box {
     width: 100%;
-    height: 45vw;
-    background-position: top;
-    background-size: cover;
-
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2%;
+    margin-bottom: 10%;
 }
 
 .link-button-2 {
@@ -79,19 +103,137 @@ p {
     font-size: 30px;
 }
 
-.second-full-box {}
-
-.second-box {
+.third-box {
+    width: 80%;
     text-align: center;
-    padding-left: 20%;
-    padding-right: 20%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
+.third-box p {
+    font-size: 30px;
+    text-align: center;
+}
 
 .container {
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-content: center;
-    margin: ;
+    align-items: center;
+    margin-bottom: 2%;
+}
 
+.card-blue {
+    text-align: justify;
+    margin-right: 2%;
+    margin-top: 2%;
+    padding: 55px 50px 30px 11px;
+    background-color: rgb(66, 66, 197);
+}
+
+.card-red {
+    text-align: justify;
+    margin-right: 2%;
+    margin-top: 2%;
+    padding: 55px 50px 30px 11px;
+    background-color: rgb(109, 56, 56);
+}
+
+.card-gray {
+    text-align: justify;
+    margin-right: 2%;
+    margin-top: 2%;
+    padding: 55px 50px 30px 11px;
+    background-color: gray;
+}
+
+.donation {
+    display: flex;
+    width: 100%;
+    margin: 80px 30px 80px 50px;
+
+}
+
+.donation-discription {
+    width: 40%;
+    font-family: serif;
+    margin-right: 2%;
+}
+
+.donation-pic {
+    width: 40;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.donation-2 {
+    display: flex;
+    width: 100%;
+    margin: 50px 30px 80px 50px;
+}
+
+.donation-discription-2 {
+    width: 40%;
+    font-family: serif;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.donation-pic-2 {
+    margin-top: 10%;
+}
+
+.fourth-box {
+    width: 70%;
+    text-align: center;
+    font-family: serif;
+    margin: 5% 10%;
+    10% 10%;
+}
+
+.fourth-input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF4D6;
+    padding: 75px 180px;
+    margin-bottom: 130px;
+}
+
+.fourth-input-box input {
+
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    width: 275px;
+    padding: 14px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: #AA9F9F;
+}
+
+.fourth-input-box a {
+    padding: 6px 15px 6px 15px;
+}
+
+footer {
+    background: black;
+    padding-top: 1%;
+
+}
+
+footer h2 {
+    color: crimson;
+    text-align: center;
+    padding-bottom: 2%;
+    margin-bottom: 0%;
+    font-size: 50px;
+
+}
+
+footer h4 {
+    color: #3ea010;
+    text-align: center;
 }
